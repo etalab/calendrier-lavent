@@ -28,6 +28,9 @@ body {
 }
 main {
   text-align: center;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   position: relative
 }
@@ -97,6 +100,8 @@ main {
   background: #ff8a24;
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, .15), inset 0 0 30px 20px rgba(0, 0, 0, .15);
   z-index: -1;
+  /*firefox fix*/
+  overflow: hidden;
 }
 .present__bauble {
   position: relative;
@@ -138,6 +143,8 @@ main {
   width:100%;
   background: url(./img/datawatch-bulles.png);
   position:absolute;
+  overflow: hidden;
+  top:0;
 }
 
 .present-textStyle {
@@ -172,7 +179,7 @@ main {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: -webkit-flexbox;
-  ms-flex-direction: flex;
+  -ms-flex-direction: flex;
 }
 
 .flexbox-row {
@@ -181,8 +188,8 @@ main {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .flexbox-column {
@@ -191,42 +198,42 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .flexbox-space-around {
   -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-justify-content: space-around;
+  justify-content: space-around;
 }
 
 .flexbox-space-between {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
   -webkit-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flexbox-center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
   -webkit-align-items: center;
+  align-items: center;
 }
 
 .flexbox-flex-end {
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
   -webkit-align-items: flex-end;
+  align-items: flex-end;
 }
 
 .flexbox-justify-center {
   -webkit-box-pack:center;
-      -ms-flex-pack:center;
-          justify-content:center;
+  -ms-flex-pack:center;
   -webkit-justify-content: center;
+  justify-content:center;
 }
 
 

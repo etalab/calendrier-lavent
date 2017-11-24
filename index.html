@@ -1,6 +1,22 @@
+<!DOCTYPE html>
+
 <link rel="stylesheet" type="text/css" href="styles.css" />
 <head>
-  <script src="script.js"></script>
+  <title>l'avent opendata</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript">
+  function lockUnvailableGifts() {
+    // Close gift until the day has come !
+    var today = new Date().getDate(); // numéro du jour
+    var month = new Date().getMonth(); // numéro du mois 0..11
+    for (var date=1; date<25; date++) {
+      if (month <= 11 || date > today) {
+        document.getElementById(date.toString()).className += ' removeAnimation';
+      }
+    }
+  }
+  window.onload = lockUnvailableGifts;
+  </script>
 </head>
 
 <body>
@@ -229,6 +245,3 @@
   	</article>
   </main>
 </body>
-<script>
-  lockUnvailableGifts();
-</script>
