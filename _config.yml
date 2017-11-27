@@ -12,6 +12,9 @@ url: "https://etalab.github.io"
 twitter_username: datagouvfr
 github_username:  etalab
 
+# Disable when OK with content
+future: true
+
 
 # So as we can reuse the same website for each year
 permalink: /:year/:day

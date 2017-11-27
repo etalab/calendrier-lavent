@@ -1,0 +1,13 @@
+language: ruby
+rvm: '2.4.0'
+sudo: false
+
+script: bundle exec jekyll build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: _site
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
