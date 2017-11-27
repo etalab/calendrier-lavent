@@ -15,7 +15,7 @@ bundle exec jekyll s
 
 # Publier un article
 
-1. [Créer un fichier][] — par exemple, `_posts/2017-12-01.md` afin de le publier le **1er décembre 2017** ;
+1. [Créer un fichier][] — par exemple, `_posts/2017-12-01-prenoms.md` afin de le publier le **1er décembre 2017** ;
 2. S'inspirer de ce template comme contenu de fichier :
 
 ```markdown
@@ -31,4 +31,4 @@ contribution:
 Le fichier national des prénoms de l'INSEE est disponible en open data depuis le 1er janvier 2017.
 ```
 
-[Créer un fichier]: https://github.com/etalab/calendrier-lavent/new/master?filename=_posts/20xx-12-xx.md
+[Créer un fichier]: https://github.com/etalab/calendrier-lavent/new/master?filename=_posts/20xx-12-xx-TITRE.md

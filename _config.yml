@@ -16,9 +16,6 @@ github_username:  etalab
 # So as we can reuse the same website for each year
 permalink: /:year/:day
 
-# Disable when tests are over
-future: true
-
 # Build settings
 markdown: kramdown
 plugins:
