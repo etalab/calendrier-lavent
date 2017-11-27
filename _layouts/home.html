@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section class="section-white">
+  <div class="container">
+    <article>
+      <h1>{{ page.title }}</h1>
+
+      {{ content }}
+    </article>
+  </div>
+</section>
+
+<section class="section-color" id="calendar">
+  <div class="container">
+    <div class="panel flexbox-row">
+      {% for day in site.calendar.days_order %}
+        {% assign post = site.posts | where_exp: "post", "post.advent_day == day" | first %}
+        {% include day.html day=day post=post %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
