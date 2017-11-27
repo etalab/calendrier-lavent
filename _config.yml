@@ -7,9 +7,9 @@ title: Calendrier de l'Avent Open Data 2017
 email: info@data.gouv.fr
 description: >-
   Pas de data, pas de chocolat !
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+baseurl: "/calendrier-lavent"
+url: "https://etalab.github.io"
+twitter_username: datagouvfr
 github_username:  etalab
 
 
