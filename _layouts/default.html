@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+  <!-- Search Engine -->
+  {{ seo_tags }}
+
+  <!-- Favicons -->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-icon-180x180.png' | absolute_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | absolute_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | absolute_url }}">
+  <link rel="manifest" href="{{ '/assets/manifest.json' | absolute_url }}">
+  <link rel="mask-icon" href="{{ '/assets/favicons/safari-pinned-tab.svg' | absolute_url }}" color="#5bbad5">
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav__container">
+      <img class="nav__logo" src="{{ '/assets/images/logo_site.svg' | relative_url }}" alt="{{ site.title }}" />
+
+      <ul class="nav__links">
+        <li><a href="{{ '/#calendar' | relative_url }}">Le calendrier</a></li>
+        <li><a href="{{ '/about/' | relative_url }}">L'intention</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero__container">
+      <h1 class="hero__white-background">{{ site.title }}</h1>
+      <p class="hero__white-background">{{ site.description }}</p>
+    </div>
+  </div>
+
+  {{ content }}
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <img src="{{ '/assets/images/etalab.svg' | relative_url }}">
+        <ul class="footer__social">
+          <li><a href="https://www.twitter.com/etalab"><img src="{{ '/assets/images/icons/twitter.svg' | relative_url }}" alt="Twitter" /></a></li>
+          <li><a href="https://www.github.com/etalab"><img src="{{ '/assets/images/icons/github.svg' | relative_url }}" alt="Github" /></a></li>
+          <li><a href="https://www.facebook.com/etalab"><img src="{{ '/assets/images/icons/facebook.svg' | relative_url }}" alt="Facebook" /></a></li>
+          <li><a href="mailto:info@data.gouv.fr"><img src="{{ '/assets/images/icons/envelop.svg' | relative_url }}" alt="Contact" /></a></li>
+        </ul>
+      </div>
+      <ul class="footer__links">
+        <li><h2>data.gouv.fr</h2></li>
+        <li><a href="https://www.data.gouv.fr/reference">Données de référence</a></li>
+        <li><a href="https://www.data.gouv.fr/terms">Conditions générales d'utilisation</a></li>
+        <li><a href="https://www.data.gouv.fr/api">API</a></li>
+      </ul>
+      <ul class="footer__links"></ul>
+    </div>
+  </footer>
+
+  <!-- Piwik -->
+  <!-- <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDomains", {{ site.config.piwik.site_domains | json }}]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//stats.data.gouv.fr/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', {{ site.config.piwik.site_id }}]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite={{ site.config.piwik.site_id }}" style="border:0;" alt="" /></p></noscript> -->
+  <!-- End Piwik Code -->
+
+</body>
+
+</html>

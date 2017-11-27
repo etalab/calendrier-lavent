@@ -1,0 +1,25 @@
+{% assign day = include.day %}
+{% assign post = include.post %}
+<article class="present {% if post %}opened{% endif %}">
+  <div class="present__pane" id="day-{{ day }}">
+    <date class="present__date" datetime="{{ day | date: '%FT%T%s' }}">
+      {{ day | date: '%e' }}
+    </date>
+  </div>
+
+  {% if post %}
+  <div class="present__content flexbox-row">
+    <div class="present-textStyle">
+      <a href="{{ post.contribution.url }}" target="_blank" rel="noopener">
+        <h2>
+          {{ post.title }}
+        </h2>
+
+        {{ post.content }}
+
+        <div style="font-size: 2em; text-align: center">🎁</div>
+      </a>
+    </div>
+  </div>
+  {% endif %}
+</article>
