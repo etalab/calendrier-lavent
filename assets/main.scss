@@ -230,3 +230,14 @@
   -webkit-justify-content: center;
   justify-content:center;
 }
+
+// Embeds
+[data-udata-dataset-id] {
+  margin-left: -1em;
+  width: 66%;
+
+  &:empty {
+    border: 2px dashed #8393a7;
+    min-height: 130px;
+  }
+}
