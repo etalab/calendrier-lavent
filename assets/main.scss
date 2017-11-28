@@ -231,6 +231,33 @@
   justify-content:center;
 }
 
+// articles
+
+article nav {
+  margin-top: 5em;
+}
+
+// pill
+.pill {
+  background: #fff;
+  border: 1px solid #1E90DA;
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  &:hover,
+  &:focus {
+    background-color: #006CB0;
+    border-color: #006CB0;
+    color: #fff;
+  }
+}
+
+//
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
 // Embeds
 [data-udata-dataset-id] {
   margin-left: -1em;
@@ -238,6 +265,19 @@
 
   &:empty {
     border: 2px dashed #8393a7;
+    margin-left: 0;
     min-height: 130px;
+  }
+}
+
+// Secondary buttons
+a.button.button--secondary {
+  background: inherit;
+  border: 1px solid #0081d5;
+  color: #0081d5;
+
+  &:hover,
+  &:focus {
+    color: white;
   }
 }

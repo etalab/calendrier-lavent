@@ -16,7 +16,7 @@ layout: default
   <div class="container">
     <div class="panel flexbox-row">
       {% for day in site.calendar.days_order %}
-        {% assign post = site.posts | where_exp: "post", "post.advent_day == day" | first %}
+        {% assign post = site.posts | where_exp: "post", "post.date == day" | first %}
         {% include day.html day=day post=post %}
       {% endfor %}
     </div>

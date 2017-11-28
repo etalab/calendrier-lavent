@@ -10,7 +10,7 @@ Pour déveloper, fixer une bricole ou autre.
 git clone git@github.com:etalab/calendrier-lavent.git
 cd calendrier-lavent
 bundle install
-bundle exec jekyll s
+bundle exec jekyll serve
 ```
 
 # Publier un article
@@ -21,14 +21,20 @@ bundle exec jekyll s
 ```markdown
 ---
 title: Fichier des prénoms
-advent_day: 2017-12-01
 contribution:
   type: dataset
   publisher: INSEE
   url: https://www.data.gouv.fr/fr/datasets/fichier-des-prenoms-edition-2016/
 ---
 
-Le fichier national des prénoms de l'INSEE est disponible en open data depuis le 1er janvier 2017.
+Accroche en moins de 10 mots.
+
+<!--more-->
+
+Le reste du contenu affiché sur la page du calendrier de l'Avent relatif à ce jour.
+
+<!-- on peut même embarquer des embed de datasets -->
+<div data-udata-dataset-id="586a824588ee3835ec3f4e61"></div>
 ```
 
-[Créer un fichier]: https://github.com/etalab/calendrier-lavent/new/master?filename=_posts/20xx-12-xx-TITRE.md
+[Créer un fichier]: https://github.com/etalab/calendrier-lavent/new/master?filename=_posts/20xx-12-xx-dataset.md

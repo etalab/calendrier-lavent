@@ -8,7 +8,26 @@ layout: default
       <h1>{{ page.title }}</h1>
 
       {{ content }}
+
+      <footer>
+        {% if page.resource.url %}
+        <p>
+          <a href="{{ page.resource.url }}" target="_blank" rel="noreferrer noopener">🎁 Accéder à la ressource <strong>{{ page.title }}</strong></a>.
+        </p>
+        {% endif %}
+      </footer>
+
+      <nav>
+        <ul class="list-unstyled">
+          <li>
+            <a href="{{ '/' | relative_url }}" class="pill">
+              <span aria-hidden="true">&larr;</span> Retour au calendrier {{ page.date | date: '%Y' }}
+            </a>
+          </li>
+        </ul>
+      </nav>
     </article>
+
   </div>
 </section>
 

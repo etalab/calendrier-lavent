@@ -38,7 +38,11 @@
 
   <div class="hero">
     <div class="hero__container">
-      <h1 class="hero__white-background">{{ site.title }}</h1>
+      <h1 class="hero__white-background">
+        <a href="{{ '/' | relative_url }}" rel="home">
+          {{ site.title }}
+        </a>
+      </h1>
       <p class="hero__white-background">{{ site.description }}</p>
     </div>
   </div>
