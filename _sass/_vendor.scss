@@ -150,6 +150,17 @@ a.button:active {
     padding: 0;
   }
 }
+/* Portrait iPhone 5 series */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .panel {
+      padding: 5vh 0 5vh 0 !important;
+    }
+}
+
 @media (min-width: 550px) {
   .container {
     width: 80%;
