@@ -10,12 +10,12 @@
   {% if post %}
   <div class="present__content flexbox-row">
     <div class="present-textStyle">
-      <a href="{{ post.contribution.url }}" target="_blank" rel="noopener">
+      <a href="{{ post.url }}" rel="bookmark">
         <h2>
           {{ post.title }}
         </h2>
 
-        {{ post.content }}
+        {{ post.excerpt }}
 
         <div style="font-size: 2em; text-align: center">🎁</div>
       </a>

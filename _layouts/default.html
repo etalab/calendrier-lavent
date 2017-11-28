@@ -25,7 +25,9 @@
 <body>
   <nav class="nav">
     <div class="nav__container">
-      <img class="nav__logo" src="{{ '/assets/images/logo_site.svg' | relative_url }}" alt="{{ site.title }}" />
+      <a href="{ '/' | relative_url }" rel="home">
+        <img class="nav__logo" src="{{ '/assets/images/logo_site.svg' | relative_url }}" alt="{{ site.title }}">
+      </a>
 
       <ul class="nav__links">
         <li><a href="{{ '/#calendar' | relative_url }}">Le calendrier</a></li>
