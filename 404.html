@@ -10,7 +10,10 @@ layout: default
       <p><strong>Page introuvable :(</strong></p>
       <p>Mais pour te débloquer, voici un jeu de données certifié pris au hasard sur <a href="https://www.data.gouv.fr">data.gouv.fr</a> :).</p>
 
-      ! INS3RER ICI UN JEU DE DONN3ES !
+      <div id="random-dataset"></div>
     </article>
   </div>
 </section>
+
+<script src="https://www.data.gouv.fr/static/widgets.js" id="udata" async defer></script>
+<script src="{{ '/assets/random-dataset.js' | absolute_url }}"></script>
