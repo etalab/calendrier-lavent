@@ -3,7 +3,7 @@ title: L'intention
 permalink: /about/
 ---
 
-L'équipe d'[Étalab][] se réunit pour produire un calendrier de l'Avent de l'[Open Data][]. Ce calendrier se veut être une rétrospective de l'année 2017.
+L'équipe d'[Etalab][] se réunit pour produire un calendrier de l'Avent de l'[Open Data][]. Ce calendrier se veut être une rétrospective de l'année 2017.
 
 Du 1er au 24 décembre, **nous vous invitons à découvrir ou redécouvrir** :
 
@@ -21,5 +21,5 @@ Du 1er au 24 décembre, **nous vous invitons à découvrir ou redécouvrir** :
   </ul>
 </nav>
 
-[Étalab]: https://www.etalab.gouv.fr/fr/qui-sommes-nous
+[Etalab]: https://www.etalab.gouv.fr/fr/qui-sommes-nous
 [Open Data]: https://www.data.gouv.fr/fr/faq/
