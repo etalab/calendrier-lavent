@@ -2,7 +2,7 @@ language: ruby
 rvm: '2.4.0'
 sudo: false
 
-script: bundle exec jekyll build
+script: bundle exec jekyll build -b /calendrier-lavent/
 
 deploy:
   provider: pages
