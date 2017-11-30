@@ -61,7 +61,10 @@ exclude:
   - README.md
   - circle.yml
   - deploy
-
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -70,7 +73,3 @@ exclude:
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
