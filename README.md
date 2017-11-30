@@ -4,7 +4,7 @@
 
 # Installer
 
-Pour déveloper, fixer une bricole ou autre.
+Pour développer, fixer une bricole ou autre.
 
 ```bash
 git clone git@github.com:etalab/calendrier-lavent.git
