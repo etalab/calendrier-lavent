@@ -2,6 +2,10 @@
 layout: home
 ---
 
-Pour célébrer une année riche en données et en réutilisations, Etalab vous invite à découvrir en ce mois de décembre le calendrier de l'avent de l'Open Data.
+Pour célébrer une année riche en données et en avancées pour l'open data, Etalab vous propose son calendrier de l'avent 2017.
 
-Chaque jour, vous pourrez ainsi découvrir ou redécouvrir **un nouveau jeu de données**, **un jeu de données marquant** ou **une réutilisation phare**, entre autres.
+Jour après jour, vous pourrez ainsi découvrir ou redécouvrir :
+
+* un nouveau jeu de données mis à disposition ;
+* un jeu de données marquant ou illustrant une nouveauté de l'année 2017 ;
+* ou une réutilisation intéressante.
