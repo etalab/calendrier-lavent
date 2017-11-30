@@ -7,8 +7,8 @@ title: Calendrier de l'Avent Open Data 2017
 email: info@data.gouv.fr
 description: >-
   Pas de data, pas de chocolat !
-baseurl: "/calendrier-lavent"
-url: "https://etalab.github.io"
+baseurl: "/"
+url: "https://avent.data.gouv.fr"
 twitter_username: datagouvfr
 github_username:  etalab
 
@@ -55,7 +55,13 @@ calendar:
 piwik:
   site_id: xx
   site_domains:
-    - "etalab.github.io/calendrier-lavent"
+    - "avent.data.gouv.fr/calendrier-lavent"
+
+exclude:
+  - README.md
+  - circle.yml
+  - deploy
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
