@@ -53,9 +53,9 @@ calendar:
     - 2017-12-06T00:00:00
 
 piwik:
-  site_id: xx
+  site_id: 41
   site_domains:
-    - "avent.data.gouv.fr/calendrier-lavent"
+    - "avent.data.gouv.fr"
 
 exclude:
   - README.md
