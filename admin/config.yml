@@ -15,7 +15,7 @@ collections:
     title: {{title}}
     fields:
       - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Date de publication de l'article", name: "date", widget: "string"}
+      - {label: "Date de publication de l'article (au format "AAAA/MM/JJ")", name: "date", widget: "string"}
       - {label: "Type", name: "type", widget: "string"}
       - {label: "Publieur", name: "publisher", widget: "string"}
       - {label: "URL", name: "url", widget: "string"}
