@@ -3,12 +3,12 @@ title: L'intention
 permalink: /about/
 ---
 
-L'équipe d'[Etalab][] se réunit pour produire un calendrier de l'Avent de l'[Open Data][]. Ce calendrier se veut être une rétrospective de l'année 2017.
+L'équipe d'[Etalab][] se réunit pour produire un calendrier de l'Avent de l'[Open Data][]. Ce calendrier se veut notamment être une rétrospective de l'année 2017.
 
 Du 1er au 24 décembre, nous vous invitons à _découvrir_ ou _redécouvrir_ :
 
 - **un nouveau jeu de données** disponible en open data ;
-- un **jeu de données marquant** de l'année 2017 ;
+- un **jeu de données marquant ou illustrant une nouveauté**  de l'année 2017 ;
 - une **réutilisation phare**.
 
 <nav>
