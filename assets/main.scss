@@ -74,6 +74,10 @@
   z-index: 999;
 }
 
+.present.openable {
+  cursor: pointer;
+}
+
 .present.opened .present__pane {
   background: linear-gradient(45deg,#43b0ff,#c3e6ff);
   transform: rotateY(-97deg);

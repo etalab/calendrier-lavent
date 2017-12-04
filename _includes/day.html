@@ -1,6 +1,6 @@
 {% assign day = include.day %}
 {% assign post = include.post %}
-<article class="present {% if post %}opened{% endif %}">
+<article class="present {% if post %}openable{% endif %}" onclick="{% if post %}this.classList.add('opened'){% endif %}">
   <div class="present__pane" id="day-{{ day }}">
     <date class="present__date" datetime="{{ day | date: '%FT%T%s' }}">
       {{ day | date: '%e' }}
