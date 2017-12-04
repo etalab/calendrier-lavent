@@ -12,8 +12,9 @@ url: "https://avent.data.gouv.fr"
 twitter_username: datagouvfr
 github_username:  etalab
 
-# Disable when OK with content
-future: true
+
+timezone: Europe/Paris
+future: false
 
 
 # So as we can reuse the same website for each year
