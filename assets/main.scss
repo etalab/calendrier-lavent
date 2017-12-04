@@ -77,6 +77,17 @@
 .present.openable {
   cursor: pointer;
 }
+/* Shine */
+@keyframes glowing {
+  0% { box-shadow: 0 0 -60px 5px #c6432c; }
+  40% { box-shadow: 0 0 60px 5px #c6432c; }
+  60% { box-shadow: 0 0 60px 5px #c6432c; }
+  100% { box-shadow: 0 0 -60px 5px #c6432c; }
+}
+
+.shine {
+  animation: glowing 4000ms infinite;
+}
 
 .present.opened .present__pane {
   background: linear-gradient(45deg,#43b0ff,#c3e6ff);
