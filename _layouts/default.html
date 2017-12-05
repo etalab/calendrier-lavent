@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
   <!-- Search Engine -->
-  {{ seo }}
+  {% seo %}
 
   <!-- Favicons -->
   <meta name="theme-color" content="#ffffff">
@@ -22,7 +22,7 @@
   <link rel="mask-icon" href="{{ '/assets/favicons/safari-pinned-tab.svg' | absolute_url }}" color="#5bbad5">
 
   <!-- Feed (auto)detection -->
-  <link href="/feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.title }}" />
+  {% feed_meta %}
 </head>
 
 <body>
