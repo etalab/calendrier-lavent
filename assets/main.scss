@@ -70,23 +70,39 @@
   box-shadow: inset 0 0 10px 5px #6b98c3;
 }
 
-.present.opened {
-  z-index: 999;
+.present.openable {
+  cursor: pointer;
+}
+/* Shine */
+@keyframes glowing {
+  0% { box-shadow: 0 0 -60px 5px #c6432c; }
+  40% { box-shadow: 0 0 60px 5px #c6432c; }
+  60% { box-shadow: 0 0 60px 5px #c6432c; }
+  100% { box-shadow: 0 0 -60px 5px #c6432c; }
 }
 
-.present.opened .present__pane {
-  background: linear-gradient(45deg,#43b0ff,#c3e6ff);
-  transform: rotateY(-97deg);
-  perspective-origin: 0;
-  transition: all 0.25s ease-in;
+.shine {
+  animation: glowing 4000ms infinite;
 }
-.present.opened .present__date {
-  backface-visibility: hidden;
-}
-.present.opened .present__bauble {
-  display: inline-block;
-  transform-origin: 50% 0;
-  animation: shake 0.7s;
+
+.present.opened,
+.no-js .present.openable {
+  z-index: 999;
+
+  .present__pane {
+    background: linear-gradient(45deg,#43b0ff,#c3e6ff);
+    transform: rotateY(-97deg);
+    perspective-origin: 0;
+    transition: all 0.25s ease-in;
+  }
+  .present__date {
+    backface-visibility: hidden;
+  }
+  .present__bauble {
+    display: inline-block;
+    transform-origin: 50% 0;
+    animation: shake 0.7s;
+  }
 }
 .present__content {
   position: absolute;

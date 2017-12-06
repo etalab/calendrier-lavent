@@ -1,8 +1,9 @@
 {% assign day = include.day %}
 {% assign post = include.post %}
-<article class="present {% if post %}opened{% endif %}">
-  <div class="present__pane" id="day-{{ day }}">
-    <date class="present__date" datetime="{{ day | date: '%FT%T%s' }}">
+{% assign id = day | date: '%Y-%m-%d' %}
+<article class="present {% if post %}openable{% endif %}" id="day-{{ id }}">
+  <div class="present__pane {% if post %}shine{% endif %}">
+    <date class="present__date" datetime="{{ day | date: '%FT%T+01:00' }}">
       {{ day | date: '%e' }}
     </date>
   </div>
@@ -10,7 +11,7 @@
   {% if post %}
   <div class="present__content flexbox-row">
     <div class="present-textStyle">
-      <a href="{{ post.url | relative_url }}.html" rel="bookmark">
+      <a href="{{ post.url | relative_url }}.html" rel="bookmark" data-tracking-id="{{ id }}">
         <h2>
           {{ post.title }}
         </h2>
