@@ -1,5 +1,6 @@
 ---
 title: Dataviz Finances Gironde
+advent_day: 2017-12-07
 contribution:
   type: reuse
   publisher: Département de la Gironde
