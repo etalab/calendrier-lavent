@@ -1,10 +1,12 @@
 ---
-title: Marchés publics bretons
+title: Marchés publics
 contribution:
   type: dataset
   publisher: Colin Maudry
   url: https://www.data.gouv.fr/fr/datasets/marches-publics-bretons-au-format-json-reglementaire-2013-2015-1/
 ---
+
+vers une publication en open data des données essentielles.
 
 <!--more-->
 
@@ -20,4 +22,4 @@ La transparence sur cette dépense doit encore progresser : elle est en effet au
 
 L'administration centrale travaille de concert avec la région Bretagne, déjà fortement engagée sur le sujet, afin de bénéficier d’un territoire d’expérimentation pour la production des données essentielles de la commande publique.
 
-<div data-udata-dataset-id="5979b06088ee380e9896013c"></div>
+<div data-udata-dataset-id="59dba0b4c751df4c8443233c"></div>
