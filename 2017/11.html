@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Des requêtes par milliard !</title>
+
+  <link rel="stylesheet" href="/calendrier-lavent/assets/main.css">
+
+  <!-- Search Engine -->
+  <!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Des requêtes par milliard ! | Calendrier de l’Avent Open Data 2017</title>
+<meta property="og:title" content="Des requêtes par milliard !" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Une Base Adresse c’est bien, une API de géocodage c’est encore mieux !" />
+<meta property="og:description" content="Une Base Adresse c’est bien, une API de géocodage c’est encore mieux !" />
+<link rel="canonical" href="https://avent.data.gouv.fr/calendrier-lavent/2017/11" />
+<meta property="og:url" content="https://avent.data.gouv.fr/calendrier-lavent/2017/11" />
+<meta property="og:site_name" content="Calendrier de l’Avent Open Data 2017" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-12-11T00:00:00+01:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Une Base Adresse c’est bien, une API de géocodage c’est encore mieux !","author":null,"@type":"BlogPosting","url":"https://avent.data.gouv.fr/calendrier-lavent/2017/11","publisher":null,"image":null,"headline":"Des requêtes par milliard !","dateModified":"2017-12-11T00:00:00+01:00","datePublished":"2017-12-11T00:00:00+01:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://avent.data.gouv.fr/calendrier-lavent/2017/11"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- Favicons -->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://avent.data.gouv.fr/calendrier-lavent/assets/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://avent.data.gouv.fr/calendrier-lavent/assets/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://avent.data.gouv.fr/calendrier-lavent/assets/favicons/favicon-32x32.png">
+  <link rel="manifest" href="https://avent.data.gouv.fr/calendrier-lavent/assets/manifest.json">
+  <link rel="mask-icon" href="https://avent.data.gouv.fr/calendrier-lavent/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+  <!-- Feed (auto)detection -->
+  <link type="application/atom+xml" rel="alternate" href="https://avent.data.gouv.fr/calendrier-lavent/feed.xml" title="Calendrier de l'Avent Open Data 2017" />
+</head>
+
+<body class="no-js">
+  <nav class="nav">
+    <div class="nav__container">
+      <a href="/calendrier-lavent/" rel="home">
+        <img class="nav__logo" src="/calendrier-lavent/assets/images/logo-datagouv.svg" alt="Calendrier de l'Avent Open Data 2017">
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="/calendrier-lavent/#calendar">Le calendrier</a></li>
+        <li><a href="/calendrier-lavent/about/">L'intention</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero__container">
+      <h1 class="hero__white-background">
+        <a href="/calendrier-lavent/" rel="home">
+          Calendrier de l'Avent Open Data 2017
+        </a>
+      </h1>
+      <p class="hero__white-background">Pas de data, pas de chocolat !</p>
+    </div>
+  </div>
+
+  <section class="section-white">
+  <div class="container">
+    <article>
+      <h1>Des requêtes par milliard !</h1>
+
+      <p>Une Base Adresse c’est bien, une API de géocodage c’est encore mieux !</p>
+
+<!--more-->
+
+<p><img src="https://www.data.gouv.fr/s/avatars/18/18b929a270482faefabb18f5d2b4fd.png" alt="Logo BAN" /></p>
+
+<p>Une base d’adresse comme la BAN (Base Adresse Nationale) est un jeu de données assez volumineux qui comme beaucoup de jeux de données révèle sa réelle valeur à l’usage.</p>
+
+<p>Offrir des services s’appuyant sur ce jeu de données qui fait désormais partie du <a href="https://www.data.gouv.fr/fr/reference">Service Public de la Donnée de Référence</a> a été identifié comme prioritaire avant même sa disponibilité en open data courant 2015.</p>
+
+<p>Etalab a donc développé dès fin 2014 un moteur de géocodage maison, car ceux disponibles ne répondaient pas au cahier des charges fixé. Ce moteur c’est <strong>addok</strong>, développé en python et en interne par Yohan Boniface et <a href="https://github.com/addok/addok">disponible en opensource</a>.</p>
+
+<p>L’API documentée sur <a href="https://adresse.data.gouv.fr/api/">adresse.data.gouv.fr</a> propose plusieurs services :</p>
+
+<ul>
+  <li>géocodage unitaire d’adresse (pour passer d’un libellé aux adresses correspondantes)</li>
+  <li>géocodage en masse d’adresses (fichiers au format CSV)</li>
+  <li>géocodage inverse (pour passer d’une coordonnée géographique à l’adresse la plus proche)</li>
+  <li>géocodage inverse de masse (fichiers au format CSV)</li>
+  <li>autocomplétion d’adresse (proposition d’adresse “commençant par”)</li>
+</ul>
+
+<p>Cette API est ouverte publiquement depuis avril 2015, lancement officiel de la BAN et est de plus en plus utilisée tant par des acteurs privés que publics.</p>
+
+<p>Sur l’année 2017, <strong>elle a franchit la barre symbolique du milliard de requêtes traitées</strong>, avec un pic de près de 7,4 millions de requête le 19 août dernier. On constate donc une nette progression par rapport à 2016 où 440 millions de requêtes avaient été traités.</p>
+
+<p><img src="/calendrier-lavent/assets/images/stats-addok-ban.png" alt="Dashboard de l'API de géocodage de la BAN" /></p>
+
+<p><a href="https://adresse.data.gouv.fr/data/stats/stats-api.html">Les statistiques détaillées sont consultables en ligne</a> et remise à jour quotidiennement et les données statistiques sont elles aussi exportables depuis ces statistiques détaillées.</p>
+
+<p>Le taux de disponibilité de l’API a aussi été très élevée (plus de 99,95%) depuis le début de l’année (174 minutes d’indisponibilité, dont 138 dûe à la panne OVH du mois de novembre).</p>
+
+<p>En plus de cette API publique, des instances locales et autonomes peuvent être déployées vu que le code est libre et les données aussi. Etalab propose d’ailleurs depuis peu <a href="https://github.com/etalab/addok-docker">un docker prêt à l’emploi</a> avec les données pré-indexées pour rendre encore plus simple ce type de déploiement. Ceci permet à des usages critiques de ne pas dépendre de l’API publique.</p>
+
+<div data-udata-dataset-id="5530fbacc751df5ff937dddb"></div>
+<div data-udata-dataset-id="5a2e6517c751df0874ef6bc7"></div>
+
+
+      <footer>
+        
+      </footer>
+
+      <nav>
+        <ul class="list-unstyled">
+          <li>
+            <a href="/calendrier-lavent/" class="pill">
+              <span aria-hidden="true">&larr;</span> Retour au calendrier 2017
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </article>
+
+  </div>
+</section>
+
+<script src="https://www.data.gouv.fr/static/widgets.js" id="udata" async defer onload="udataScript.loadDatasets()"></script>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <img src="/calendrier-lavent/assets/images/etalab.svg">
+        <ul class="footer__social">
+          <li><a href="https://www.twitter.com/etalab"><img src="/calendrier-lavent/assets/images/icons/twitter.svg" alt="Twitter" /></a></li>
+          <li><a href="https://www.github.com/etalab"><img src="/calendrier-lavent/assets/images/icons/github.svg" alt="Github" /></a></li>
+          <li><a href="https://www.facebook.com/etalab"><img src="/calendrier-lavent/assets/images/icons/facebook.svg" alt="Facebook" /></a></li>
+          <li><a href="mailto:info@data.gouv.fr"><img src="/calendrier-lavent/assets/images/icons/envelop.svg" alt="Contact" /></a></li>
+        </ul>
+      </div>
+      <ul class="footer__links">
+        <li><h2>data.gouv.fr</h2></li>
+        <li><a href="https://www.data.gouv.fr/reference">Données de référence</a></li>
+        <li><a href="https://www.data.gouv.fr/terms">Conditions générales d'utilisation</a></li>
+        <li><a href="https://www.data.gouv.fr/api">API</a></li>
+      </ul>
+      <ul class="footer__links"></ul>
+    </div>
+  </footer>
+
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//stats.data.gouv.fr/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 41]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite=41" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+
+</body>
+
+</html>

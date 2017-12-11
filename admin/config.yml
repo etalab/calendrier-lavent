@@ -1,0 +1,27 @@
+backend:
+  name: github
+  base_url: https://api.staticweb-01.etalab.gouv.fr
+  site_domain: avent.data.gouv.fr/
+  repo: etalab/calendrier-lavent
+
+media_folder: "img/uploads"
+
+collections:
+  - name: "posts"
+    label: "Article"
+    folder: "_posts"
+    create: true
+    slug: "{{date}}-{{title}}"
+    title: {{title}}
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date de publication", name: "date", widget: "date", format: "YYYY-MM-DD", placeholder: "AAAA/MM/JJ"}
+      - {label: "Contenu de l'article", name: "body", widget: "markdown"}
+      - widget: "object"
+        name: "resource"
+        label: "Ressource data.gouv.fr liée"
+        required: false
+        fields:
+          - {label: "URL", name: "url", widget: "string", required: "false"}
+          - {label: "Type", name: "type", widget: "select", required: "false", options: ["dataset", "reuse", "blog-post", "discussion"]}
+          - {label: "Producteur", name: "publisher", widget: "string", required: "false"}

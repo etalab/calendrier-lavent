@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://avent.data.gouv.fr/calendrier-lavent/feed.xml" rel="self" type="application/atom+xml" /><link href="https://avent.data.gouv.fr/calendrier-lavent/" rel="alternate" type="text/html" /><updated>2017-12-11T12:12:59+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/</id><title type="html">Calendrier de l’Avent Open Data 2017</title><subtitle>Pas de data, pas de chocolat !</subtitle><entry><title type="html">Des requêtes par milliard !</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/11" rel="alternate" type="text/html" title="Des requêtes par milliard !" /><published>2017-12-11T00:00:00+01:00</published><updated>2017-12-11T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/ban</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/11">&lt;p&gt;Une Base Adresse c’est bien, une API de géocodage c’est encore mieux !&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.data.gouv.fr/s/avatars/18/18b929a270482faefabb18f5d2b4fd.png&quot; alt=&quot;Logo BAN&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Une base d’adresse comme la BAN (Base Adresse Nationale) est un jeu de données assez volumineux qui comme beaucoup de jeux de données révèle sa réelle valeur à l’usage.&lt;/p&gt;
+
+&lt;p&gt;Offrir des services s’appuyant sur ce jeu de données qui fait désormais partie du &lt;a href=&quot;https://www.data.gouv.fr/fr/reference&quot;&gt;Service Public de la Donnée de Référence&lt;/a&gt; a été identifié comme prioritaire avant même sa disponibilité en open data courant 2015.&lt;/p&gt;
+
+&lt;p&gt;Etalab a donc développé dès fin 2014 un moteur de géocodage maison, car ceux disponibles ne répondaient pas au cahier des charges fixé. Ce moteur c’est &lt;strong&gt;addok&lt;/strong&gt;, développé en python et en interne par Yohan Boniface et &lt;a href=&quot;https://github.com/addok/addok&quot;&gt;disponible en opensource&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;L’API documentée sur &lt;a href=&quot;https://adresse.data.gouv.fr/api/&quot;&gt;adresse.data.gouv.fr&lt;/a&gt; propose plusieurs services :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;géocodage unitaire d’adresse (pour passer d’un libellé aux adresses correspondantes)&lt;/li&gt;
+  &lt;li&gt;géocodage en masse d’adresses (fichiers au format CSV)&lt;/li&gt;
+  &lt;li&gt;géocodage inverse (pour passer d’une coordonnée géographique à l’adresse la plus proche)&lt;/li&gt;
+  &lt;li&gt;géocodage inverse de masse (fichiers au format CSV)&lt;/li&gt;
+  &lt;li&gt;autocomplétion d’adresse (proposition d’adresse “commençant par”)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cette API est ouverte publiquement depuis avril 2015, lancement officiel de la BAN et est de plus en plus utilisée tant par des acteurs privés que publics.&lt;/p&gt;
+
+&lt;p&gt;Sur l’année 2017, &lt;strong&gt;elle a franchit la barre symbolique du milliard de requêtes traitées&lt;/strong&gt;, avec un pic de près de 7,4 millions de requête le 19 août dernier. On constate donc une nette progression par rapport à 2016 où 440 millions de requêtes avaient été traités.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/calendrier-lavent/assets/images/stats-addok-ban.png&quot; alt=&quot;Dashboard de l'API de géocodage de la BAN&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://adresse.data.gouv.fr/data/stats/stats-api.html&quot;&gt;Les statistiques détaillées sont consultables en ligne&lt;/a&gt; et remise à jour quotidiennement et les données statistiques sont elles aussi exportables depuis ces statistiques détaillées.&lt;/p&gt;
+
+&lt;p&gt;Le taux de disponibilité de l’API a aussi été très élevée (plus de 99,95%) depuis le début de l’année (174 minutes d’indisponibilité, dont 138 dûe à la panne OVH du mois de novembre).&lt;/p&gt;
+
+&lt;p&gt;En plus de cette API publique, des instances locales et autonomes peuvent être déployées vu que le code est libre et les données aussi. Etalab propose d’ailleurs depuis peu &lt;a href=&quot;https://github.com/etalab/addok-docker&quot;&gt;un docker prêt à l’emploi&lt;/a&gt; avec les données pré-indexées pour rendre encore plus simple ce type de déploiement. Ceci permet à des usages critiques de ne pas dépendre de l’API publique.&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;5530fbacc751df5ff937dddb&quot;&gt;&lt;/div&gt;
+&lt;div data-udata-dataset-id=&quot;5a2e6517c751df0874ef6bc7&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Une Base Adresse c’est bien, une API de géocodage c’est encore mieux !</summary></entry><entry><title type="html">La réussite des bacheliers en licence</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/10" rel="alternate" type="text/html" title="La réussite des bacheliers en licence" /><published>2017-12-10T00:00:00+01:00</published><updated>2017-12-10T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/licence</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/10">&lt;!--more--&gt;
+
+&lt;p&gt;Le ministère de l’Enseignement supérieur, de la recherche et de l’innovation publie un jeu de données sur le parcours et la réussite des bachelières et bacheliers inscrits pour la première fois en licence.&lt;/p&gt;
+
+&lt;p&gt;Ce jeu de données présente tous les croisements possibles des données sur les parcours et réussites en Licence, sur les variables
+suivantes : grande discipline, discipline, secteur disciplinaire, genre, série ou type de bac, mention et âge au bac. Il existe également un jeu de données présentant ces mêmes données sous forme de données micro-agrégés.&lt;/p&gt;
+
+&lt;p&gt;Les indicateurs sont réalisés à partir des données issues du Système d’Information sur le Suivi de l’Etudiant (SISE), qui recense les inscrits (SISE Inscriptions) et les diplômés (SISE-Résultats). Le champ couvre l’ensemble des universités françaises (sauf
+l’université de Nouvelle Calédonie (données non disponibles en 2015-2016)). Ces indicateurs sont calculés sur la base des inscriptions administratives, et non d’une présence effective de l’étudiant. Ils peuvent être de ce fait biaisés négativement.&lt;/p&gt;
+
+&lt;p&gt;Ce jeu de donnée permet des réutilisations intéressantes, notamment sur le taux de réussite en licence par secteur.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.data.gouv.fr/s/images/4e/0ccc10b2404d4ba917babf14f1585e.png&quot; alt=&quot;% de passage en 2ème année de licence en 1 ou 2 ans sur l'ensemble de la cohorte&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le Ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation a notamment développé une application qui propose un dispositif interactif d’informations chiffrées fines sur la réussite à l’université. Y sont  déclinés, sur la base des
+observations faites sur les précédentes années universitaires, les principaux indicateurs nationaux mesurant la réussite en licence. Ce sont :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;d’une part, les indicateurs relatifs au taux de passage de la première à la seconde année, en un an ou en 2 ans,&lt;/li&gt;
+  &lt;li&gt;d’autre part, les indicateurs relatifs à la réussite à la licence, soit directement en 3 ans, soit en 4 ans.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;L’ensemble des indicateurs sont présentés d’emblée par discipline de licence croisée avec la série de baccalauréat de l’étudiant. Selon l’intérêt de chaque utilisateur, des indicateurs plus fins sont accessibles : par exemple, quels sont les taux de passage et de réussite moyens dans une discipline donnée pour les garçons et pour les filles, ou encore, comment varient-ils selon la mention obtenue au baccalauréat. Pour une bonne information sur les taux de fréquentation actuels des différentes disciplines, tous ces indicateurs sont accompagnés de statistiques sur la part des bacheliers  de telle ou telle série qui s’oriente vers telle ou telle discipline.&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;5a14e8cea3a7297775073504&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Marchés publics</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/09" rel="alternate" type="text/html" title="Marchés publics" /><published>2017-12-09T00:00:00+01:00</published><updated>2017-12-09T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/commandepublique</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/09">&lt;p&gt;vers une publication en open data des données essentielles.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;A l’occasion du 9 Décembre, &lt;strong&gt;&lt;a href=&quot;http://www.un.org/fr/events/anticorruptionday/&quot;&gt;journée internationale de lutte contre la corruption&lt;/a&gt;&lt;/strong&gt;, nous proposons de mettre en avant la transparence et l’ouverture des données de la commande publique, levier essentiel de lutte contre la corruption !&lt;/p&gt;
+
+&lt;p&gt;Ce chantier majeur est porté à la fois au plan international, national et local.&lt;/p&gt;
+
+&lt;p&gt;En écho avec son engagement au plan national, refleté notamment dans les &lt;a href=&quot;https://gouvernement-ouvert.etalab.gouv.fr/pgo-concertation/topic/59b7d794db768b751899fd9f&quot;&gt;plans d’action nationaux du PGO&lt;/a&gt;, &lt;strong&gt;&lt;a href=&quot;https://www.etalab.gouv.fr/la-transparence-de-la-commande-publique-se-transforme-au-service-de-lopen-data&quot;&gt;la France a pris pour un an la présidence la semaine passée du Contracting 5&lt;/a&gt;&lt;/strong&gt;, une alliance de 5 pays pionniers en la matière (voir l’article de presse de &lt;a href=&quot;https://www.nextinpact.com/news/105716-la-france-prend-presidence-c5-afin-favoriser-transparence-sur-commande-publique.htm&quot;&gt;NextInpact&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Au plan local, la région Bretagne et la région Bourgogne-Franche-Comté font office de pionniers en publiant les données de leurs marchés publics publics en open data. L’association Breizh Small Business Act a ainsi mis à disposition les &lt;a href=&quot;https://breizh-sba.opendatasoft.com/explore/dataset/marches-publics-collectivites-bretonnes/information/&quot;&gt;données de 5 749 marchés publics provenant de dix collectivités bretonnes&lt;/a&gt; et la région Bourgogne-Franche-Comté a publié ses données sur data.gouv.fr :&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;5a0effeac751df5832ded865&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Pour aller plus loin dans la transparence et rendre les données interopérables, un format de publication a été défini :&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;56cc6d6988ee385864fa79d0&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;La transparence sur cette dépense doit encore progresser : elle est en effet autant un enjeu citoyen, témoignant de la bonne gestion des deniers publics, qu’un enjeu économique, en facilitant un juste accès des entreprises à la commande publique, et un enjeu d’efficacité de l’action publique, en permettant un pilotage efficient de cette politique par l’ensemble des responsables publics.&lt;/p&gt;</content><author><name></name></author><summary type="html">vers une publication en open data des données essentielles.</summary></entry><entry><title type="html">La vie publique en données</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/08" rel="alternate" type="text/html" title="La vie publique en données" /><published>2017-12-08T00:00:00+01:00</published><updated>2017-12-08T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/day8</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/08">&lt;p&gt;Les déclarations de patrimoine et d’intérêt publiées après le 1er juillet 2017&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Depuis les lois relatives à la transparence de la vie publique de 2013, les responsables publics sont tenus de déclarer leur patrimoine et leurs intérêts auprès de la Haute Autorité pour la Transparence de la vie publique (HATVP). De nombreux responsables publics - élus et agents publics - sont concernés (&lt;a href=&quot;http://www.hatvp.fr/les-declarants-2/&quot;&gt;consulter la liste des déclarants&lt;/a&gt;). La HATVP reçoit et contrôle ces déclarations et les met à disposition du public en open data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Les déclarations de situation&lt;/strong&gt; patrimoniale contiennent des informations sur les biens immobiliers, les valeurs mobilières, assurances-vie, comptes bancaires, véhicules, et sur les emprunts et dettes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Les déclarations d’intérêts&lt;/strong&gt; contiennent des informations sur l’activité professionnelle du déclarant ou de son conjoint, sur les actions détenues, l’occupation d’un siège au conseil d’administration d’une entreprise, les activités bénévoles. En début et fin de mandat, les déclarants utilisent le téléservice ADEL pour fournir leur déclaration à la HATVP.&lt;/p&gt;
+
+&lt;p&gt;Le contenu de ces déclarations permet aux citoyens, aux organisations de la société civile d’avoir une &lt;strong&gt;vision plus fine du personnel politique et de son écosystème, et constitue un véritable outil de contrôle citoyen&lt;/strong&gt;. Dans le Plan d’action 2018-2020, la HATVP s’est engagée à améliorer l’intelligibilité de ces données (voir &lt;a href=&quot;https://gouvernement-ouvert.etalab.gouv.fr/pgo-concertation/topic/59b7d77ddb768b751899fd9d&quot;&gt;Engagement 6 : Renforcer l’accès aux informations publiques relatives aux élus et responsables publics&lt;/a&gt;) et de mettre à disposition d’autres ressources, comme le code source du registre des représentants d’intérêts (voir &lt;a href=&quot;https://gouvernement-ouvert.etalab.gouv.fr/pgo-concertation/topic/59b7d750db768b751899fd99&quot;&gt;engagement 5 Assurer une plus grande transparence des activités de représentants d’intérêts&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.etalab.gouv.fr/wp-content/uploads/2017/03/cropped-3193_OGP-1024x505-1.jpg&quot; alt=&quot;OGP&quot; /&gt;&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;5979b06088ee380e9896013c&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Les déclarations de patrimoine et d’intérêt publiées après le 1er juillet 2017</summary></entry><entry><title type="html">Dataviz Finances Gironde</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/07" rel="alternate" type="text/html" title="Dataviz Finances Gironde" /><published>2017-12-07T00:00:00+01:00</published><updated>2017-12-07T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/finances-gironde</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/07">&lt;p&gt;Visualiser 1,6 milliards d’euros au centime près.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Depuis le 9 novembre 2017, les citoyens girondins et français ont &lt;a href=&quot;https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale&quot;&gt;accès à un outil&lt;/a&gt; qui leur permet de &lt;em&gt;parcourir les comptes administratifs des 5 dernières années&lt;/em&gt; du &lt;a href=&quot;https://www.gironde.fr/&quot;&gt;département de la Gironde&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cet outil est disponible aux élus, de la majorité et de l’opposition ainsi qu’aux journalistes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale&quot;&gt;&lt;img src=&quot;/calendrier-lavent/assets/images/2017-12-08/dataviz.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ce projet est né de la volonté de la Gironde de respecter une obligation légale stipulée par la &lt;a href=&quot;https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000033202746&amp;amp;categorieLien=id&quot;&gt;loi sur la République Numérique&lt;/a&gt;, votée en octobre 2016. Cette loi rend obligatoire la publication en ligne des données publiques, dont celles des comptes administratifs des départements.&lt;/p&gt;
+
+&lt;p&gt;L’approche est triple :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;offrir une navigation exhaustive&lt;/strong&gt; de l’intégralité des comptes ;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;présenter des données éditorialisées&lt;/strong&gt; pour mieux comprendre sans être un·e expert·e des finances publiques ;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;communiquer un contexte historique&lt;/strong&gt; pour être à même d’interpréter les hausses et baisses des dépenses et des investissements.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;L’outil d’exploration a été réalisé conjointement avec la &lt;em&gt;direction du numérique&lt;/em&gt;, &lt;em&gt;la direction des finances&lt;/em&gt;, la &lt;em&gt;direction de la communication&lt;/em&gt; et avec le soutien d’élus.&lt;/p&gt;
+
+&lt;p&gt;Plusieurs ressources pour aller plus loin :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gironde.fr/un-budget-au-service-des-solidarites-humaine-et-territoriale&quot;&gt;La visualisation du budget sur gironde.fr&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/datalocale/dataviz-finances-gironde&quot;&gt;Le code source du projet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.data.gouv.fr/fr/datasets/comptes-administratifs-du-departement-de-la-gironde-1/&quot;&gt;Le jeu de données du budget de la Gironde&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Des données similaires ont aussi été mises à dispositions par d’autres départements tels que la &lt;a href=&quot;http://dataviz.loire-atlantique.fr/budget2017/#/&quot;&gt;Loire-Atlantique&lt;/a&gt; ou  la &lt;a href=&quot;https://data.haute-garonne.fr/explore/dataset/compte-administratif-2016/&quot;&gt;Haute-Garonne&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;59592304a3a7291dcf9c81f4&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Visualiser 1,6 milliards d’euros au centime près.</summary></entry><entry><title type="html">Alim’Confiance</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/06" rel="alternate" type="text/html" title="Alim'Confiance" /><published>2017-12-06T00:00:00+01:00</published><updated>2017-12-06T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/day6</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/06">&lt;p&gt;Les résultats des contrôles sanitaires dans le secteur alimentaire en open data.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Depuis le 1er mars 2017, le ministère de l’agriculture et de l’alimentation met à disposition en open data les résultats des contrôles sanitaires réalisés dans le secteur alimentaire (abattoirs, commerces de détail, métiers de bouche, restaurants, supermarchés, marchés, vente à la ferme, restaurants collectifs et établissements agroalimentaires).&lt;/p&gt;
+
+&lt;p&gt;Suite au contrôle, les établissements sont classés en quatre catégories.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/calendrier-lavent/assets/images/indicateurs_alimconfiance.png&quot; alt=&quot;Indicateurs Alim'Confiance&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les résultats sont publiés par le ministère sur le site &lt;a href=&quot;http://alim-confiance.gouv.fr/&quot;&gt;Alim-confiance.gouv.fr&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/calendrier-lavent/assets/images/alimconfiance.png&quot; alt=&quot;Cartographie Alim'Confiance&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les données sont aussi intégrées automatiquement à &lt;a href=&quot;http://www.openeventdatabase.org/&quot;&gt;OpenEventDataBase&lt;/a&gt;, une base de données associative qui agrège des données spatio-temporelles, et peuvent être directement visualisées via l’interface &lt;a href=&quot;https://umap.openstreetmap.fr/en/&quot;&gt;uMap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;300px&quot; frameborder=&quot;0&quot; src=&quot;//umap.openstreetmap.fr/fr/map/resultats-des-controles-sanitaires-dans-les-restau_160905?scaleControl=false&amp;amp;miniMap=false&amp;amp;scrollWheelZoom=false&amp;amp;zoomControl=true&amp;amp;allowEdit=false&amp;amp;moreControl=true&amp;amp;searchControl=null&amp;amp;tilelayersControl=null&amp;amp;embedControl=null&amp;amp;datalayersControl=true&amp;amp;onLoadPanel=undefined&amp;amp;captionBar=false&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;//umap.openstreetmap.fr/fr/map/resultats-des-controles-sanitaires-dans-les-restau_160905&quot;&gt;Voir en plein écran&lt;/a&gt;&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;5593aab9c751df35d8a453ba&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Les résultats des contrôles sanitaires dans le secteur alimentaire en open data.</summary></entry><entry><title type="html">Mon Réseau Mobile</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/05" rel="alternate" type="text/html" title="Mon Réseau Mobile" /><published>2017-12-05T00:00:00+01:00</published><updated>2017-12-05T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/day5</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/05">&lt;p&gt;La qualité de réception mobile en open data.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;En mars dernier, l’&lt;a href=&quot;https://www.arcep.fr/&quot;&gt;Autorité de régulation des communications électroniques et des postes&lt;/a&gt; (ARCEP) a ouvert les données de &lt;a href=&quot;https://www.monreseaumobile.fr/&quot;&gt;Monreseaumobile.fr&lt;/a&gt;, l’outil cartographique permettant de comparer la couverture des réseaux offert par les différents opérateurs en France (Orange, Bouygues, SFR, Free). La base cartographique utilise les données d’&lt;a href=&quot;https://www.openstreetmap.org/&quot;&gt;OpenStreetMap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Monreseaumobile.fr propose des données concernant la couverture mobile pour les appels et SMS ainsi que la couverture en internet mobile (3G et en 4G).&lt;/p&gt;
+
+&lt;p&gt;La carte rassemble deux paramètres complémentaires :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;La couverture simulée fournie par les opérateurs pour la téléphonie et l’internet mobile.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/calendrier-lavent/assets/images/arcep1.png&quot; alt=&quot;Couverture simulée pour la téléphonie&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/calendrier-lavent/assets/images/arcep2.png&quot; alt=&quot;Couverture simulée pour l'internet mobile&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;La qualité mesurée réellement sur le terrain par l’ARCEP (avec plus d’un million de mesures) pour la téléphonie et l’internet mobile. La recherche peut ensuite s’effectuer par axes de transports principaux ou autour des lieux de vie et ceci pour chaque opérateur.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/calendrier-lavent/assets/images/arcep3.png&quot; alt=&quot;Qualité mesurée sur le terrain&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;L’ouverture de ces données va permettre de comparer la couverture annoncée par un opérateur et la réalité de celle-ci. Conformément à la loi pour une République numérique de 2016, l’Arcep rend disponible l’ensemble des cartes des opérateurs en open data, ouvrant ainsi la possibilité à des tiers d’utiliser ces données, d’en évaluer la fiabilité, et de créer de nouveaux comparateurs de performance des réseaux mobiles. Retrouvez sur cette page toutes les données de couverture et de qualité de service utilisées sur data.gouv.fr.  Vous trouverez plus de détails quant aux données, formats et systèmes de projection dans les descriptifs des ressources.&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;58c98b1888ee38770950152b&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">La qualité de réception mobile en open data.</summary></entry><entry><title type="html">Les bornes de recharge de véhicules électriques</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/04" rel="alternate" type="text/html" title="Les bornes de recharge de véhicules électriques" /><published>2017-12-04T00:00:00+01:00</published><updated>2017-12-04T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/day4</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/04">&lt;!--more--&gt;
+
+&lt;p&gt;Depuis le &lt;a href=&quot;https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000033860620&amp;amp;dateTexte=&amp;amp;categorieLien=id&quot;&gt;décret n° 2017-26 du 12 janvier 2017&lt;/a&gt;, les données relatives à la localisation géographique et aux caractéristiques techniques des stations et des points de recharge de véhicules électriques ouverts au public doivent être publiées sur data.gouv.fr.&lt;/p&gt;
+
+&lt;p&gt;Le format des données est défini par l’&lt;a href=&quot;https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000033860733&amp;amp;categorieLien=id&quot;&gt;arrêté du 12 janvier&lt;/a&gt;, ce qui permet de faciliter l’agrégation de ces données, ainsi que nous l’avions inité dès 2014 avec la &lt;a href=&quot;https://www.data.gouv.fr/fr/reuses/carte-des-bornes-de-recharge-pour-vehicules-electriques/&quot;&gt;carte réalisée en 2014&lt;/a&gt;). La plateforme data.gouv.fr continuera d’évoluer en 2018 afin de favoriser cette consolidation. D’autres types de données d’intérêt national se voient également encadrés par un texte réglementaire définissant un format et une structure comme les données concernant les marchés publics.&lt;/p&gt;
+
+&lt;p&gt;Les premières données sur les bornes de recharges de véhicules électriques sont visibles &lt;a href=&quot;https://www.data.gouv.fr/fr/search/?q=irve&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;5448d3e0c751df01f85d0572&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Logement social</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/03" rel="alternate" type="text/html" title="Logement social" /><published>2017-12-03T00:00:00+01:00</published><updated>2017-12-03T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/day3</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/03">&lt;p&gt;Toutes les données sont en open data.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Jeudi dernier, le Ministère de la Transition écologique et solidaire a mis en ligne le Répertoire des logements locatifs des bailleurs sociaux (RPLS) sur data.gouv. Ce répertoire détaille les caractéristiques de 4,9 millions de logements sociaux. On y apprend que la surface moyenne des logements sociaux est de 66 mètres carré ou encore que ce sont les 3 pièces qui sont le plus représentés.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pachevalier/rpls/master/histogram_surface.png&quot; alt=&quot;Superficie des logements sociaux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pachevalier/rpls/master/nbpieces.png&quot; alt=&quot;Nombre de pièces&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;C’est dans le département du Nord qu’on trouve le plus de logements sociaux.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pachevalier/rpls/master/departement.png&quot; alt=&quot;Répartition par département&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le jeu de données comprend aussi des informations sur les diagnostics de performance énergétique. On découvre que près de 40 % des logements sont classés D en consommation d’énergie et 31 % des logements sont classés D en émission de gaz à effet de serre.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pachevalier/rpls/master/dpeenergie.png&quot; alt=&quot;Diagnostic de performance énergétique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pachevalier/rpls/master/dpeserre.png&quot; alt=&quot;Diagnostic de performance énergétique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le jeu de données est sur data.gouv et la version géocodée à l’aide de la base adresse nationale est déjà disponible &lt;a href=&quot;http://212.47.238.202/geo_rpls/&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;5a1dd4e5c751df02b116a0d6&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Toutes les données sont en open data.</summary></entry><entry><title type="html">data.gouv</title><link href="https://avent.data.gouv.fr/calendrier-lavent/2017/02" rel="alternate" type="text/html" title="data.gouv" /><published>2017-12-02T00:00:00+01:00</published><updated>2017-12-02T00:00:00+01:00</updated><id>https://avent.data.gouv.fr/calendrier-lavent/2017/day2</id><content type="html" xml:base="https://avent.data.gouv.fr/calendrier-lavent/2017/02">&lt;p&gt;+51 % de visiteurs uniques mensuels en un an !&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;La fréquentation de data.gouv est en forte en hausse en 2017 par rapport à 2016. Ainsi le nombre de visiteurs uniques mensuels a augmenté de 51 % entre novembre 2016 et novembre 2017. On constate le même phénomène pour tous les mois de l’année avec même une augmentation de 105 % entre juin 2016 et juin 2017 !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/pachevalier/statsdatagouv/master/piwik.png&quot; alt=&quot;Fréquentation de data.gouv&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le jeu de données est maintenant disponible sur data.gouv.fr&lt;/p&gt;
+
+&lt;div data-udata-dataset-id=&quot;5a22644f88ee3848529af925&quot;&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">+51 % de visiteurs uniques mensuels en un an !</summary></entry></feed>
