@@ -1,7 +1,7 @@
 ---
 title: API Cour des Comptes
 contribution:
-  type: réutilisation
+  type: reuse
   publisher: Cour des Comptes
   url: https://github.com/entrepreneur-interet-general/api-ccomptes
 ---
