@@ -46,7 +46,6 @@
 }
 .present__pane {
   position: relative;
-  background: linear-gradient(45deg,#1b71af,#55a9e5);
   transform-style: preserve-3d;
   transform-origin: 0;
   perspective: 850px;
@@ -54,6 +53,32 @@
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, .15);
   transition: all 0.2s ease-out;
 }
+
+div.flexbox-row > article .present__pane {
+  background: linear-gradient(45deg,#1b71af,#da50de);
+}
+div.flexbox-row > article .present__date {
+  color: #1b71af;
+}
+div.flexbox-row > article:nth-child(2n) .present__pane {
+  background: linear-gradient(45deg, #ef8023, #edda66);
+}
+div.flexbox-row > article:nth-child(2n) .present__date {
+  color: #ef8023;
+}
+div.flexbox-row > article:nth-child(3n) .present__pane {
+  background: linear-gradient(45deg, #23efed, #edda66);
+}
+div.flexbox-row > article:nth-child(3n) .present__date {
+  color: #357d7d;
+}
+div.flexbox-row > article:nth-child(5n) .present__pane {
+  background: linear-gradient(45deg, #da50de, #66ede1);
+}
+div.flexbox-row > article:nth-child(5n) .present__date {
+  color: #da50de;;
+}
+
 .present__date {
   position: absolute;
   top: 50%;
@@ -64,25 +89,17 @@
   margin: 0;
   font-size: 2em;
   line-height: 2.4em;
-  background: #e2f1ff;
-  color: #e22222;
   border-radius: 50%;
-  box-shadow: inset 0 0 10px 5px #6b98c3;
+  opacity: 0.7;
 }
 
 .present.openable {
   cursor: pointer;
 }
-/* Shine */
-@keyframes glowing {
-  0% { box-shadow: 0 0 -60px 5px #c6432c; }
-  40% { box-shadow: 0 0 60px 5px #c6432c; }
-  60% { box-shadow: 0 0 60px 5px #c6432c; }
-  100% { box-shadow: 0 0 -60px 5px #c6432c; }
-}
 
-.shine {
-  animation: glowing 4000ms infinite;
+.present.openable .present__date {
+  opacity: 1;
+  background: #e2f1ff;
 }
 
 .present.opened,
