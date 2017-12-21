@@ -28,6 +28,8 @@ Les créations visuelles ont aussi bien pris la forme de _posters_, de _clip vid
 
 C'est un bon exemple d'utilisation d'open data dans un cadre pédagogique. 
 
+Les étudiants ont notamment pu réutiliser les jeux de données suivants : 
+
 <div data-udata-dataset-id="53699ebba3a729239d205f58"></div>
 <div data-udata-dataset-id="57d587c5c751df66e397bae5"></div>
 <div data-udata-dataset-id="536997aaa3a729239d204d5a"></div>
