@@ -26,7 +26,15 @@ Les étudiant·e·s ont créé 7 productions. Ces créations illustrent les face
 
 Les créations visuelles ont aussi bien pris la forme de _posters_, de _clip vidéo_, de _datavisualisations_ et de _présentations_.
 
-C'est un bon exemple d'utilisation d'open data dans un cadre pédagogique. 
+Tout le monde s'est heurté aux difficultés de la recherche et de l'identification de jeux de données, de leur temporalité. Leur regard critique s'est développé en effectuant des [biographies des données][], en ayant à comparer des chiffres publiés par différents organismes.
+
+![]({{ '/assets/images/2017-12-21/spreadsheet-dataset.png' | relative_url }})
+
+C'est un bon exemple d'utilisation d'open data dans un cadre pédagogique. En tant que source d'apprentissage. La création de visualisations est l'occasion de générer des jeux de données mais aussi d'explorer des zones où la transparence n'est pas encore si anodine que ça.
+
+<video src="{{ '/assets/images/2017-12-21/rio-co2.mp4' | relative_url }}" width="620" controls></video>
+
+Un [article sera publié sur data.gouv.fr](https://www.data.gouv.fr/fr/posts/) en début d'année 2018. Il présentera la démarche plus en détail, ainsi que les jeux de données et les réutilisations créées lors de l'exercice.
 
 Les étudiants ont notamment pu réutiliser les jeux de données suivants : 
 
@@ -34,4 +42,5 @@ Les étudiants ont notamment pu réutiliser les jeux de données suivants :
 <div data-udata-dataset-id="57d587c5c751df66e397bae5"></div>
 <div data-udata-dataset-id="536997aaa3a729239d204d5a"></div>
 
+[biographies des données]: http://idatassist.com/data-biographies-how-to-get-to-know-your-data/
 
