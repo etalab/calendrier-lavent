@@ -16,7 +16,7 @@ La base contient ainsi plus de [1 000 gâteaux](https://fr.openfoodfacts.org/cat
 
 Voici par exemple [un graphique dynamique](https://world-fr.openfoodfacts.org/cgi/search.pl?action=process&tagtype_0=categories&tag_contains_0=contains&tag_0=cakes&sort_by=unique_scans_n&page_size=20&axis_x=sugars&axis_y=fat&graph_title=Sucres%20et%20mati%C3%A8res%20grasses%20dans%20les%20g%C3%A2teaux&series_nutrition_grades=on&graph=1) montrant le sucre et les matières grasses dans les gâteaux, créé en 1 minute avec le formulaire de recherche d'Open Food Facts :
 
- <img src="https://fr.blog.openfoodfacts.org/images/1000_gateaux.png" alt="Comparaison des gâteaux" width="400"> 
+ <img src="https://fr.blog.openfoodfacts.org/images/1000_gateaux.png" alt="Comparaison des gâteaux" width="600"> 
  
 Open Food Facts est un project citoyen, constitué sous forme d'association à but non lucratif et entièrement porté par une équipe bénévole qui offre à tous la possibilité de participer pour collecter et rassembler ces données d'intérêt public sur les aliments que nous consommons.
 
