@@ -215,13 +215,9 @@ a.button:active {
 }
 .hero {
   width: 100%;
-  background-color: #ebeff3;
-  background-blend-mode: darken;
-  background-image: url(./images/background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-attachment: fixed;
+  color: #fff;
+  background: #45adc5;
+  background: linear-gradient(to right, #c969a6 0%, #e795a8 15%, #a4cfcd 43%, #45adc5 65%, #265c9f 100%);
 }
 .hero__container {
   height: 38vh;
